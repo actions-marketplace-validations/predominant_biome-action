@@ -9,5 +9,5 @@ runs:
   using: 'node14'
   main: 'index.js'
 branding:
-  icon: 'codesandbox'
+  icon: 'bold'
   color: 'green'
