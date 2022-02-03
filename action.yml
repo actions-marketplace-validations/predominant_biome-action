@@ -1,0 +1,13 @@
+name: 'Biome Install'
+author: 'Graham Weldon'
+description: 'Install Biome for pipeline usage'
+inputs:
+  version:
+    description: 'version to install, default is latest'
+    required: false
+runs:
+  using: 'node14'
+  main: 'index.js'
+branding:
+  icon: 'codesandbox'
+  color: 'green'
